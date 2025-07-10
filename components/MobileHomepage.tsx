@@ -8,7 +8,7 @@ const MobileHomePage = () => {
     <div>
       <MaxWidthWrapper className="">
         {/* Top Section */}
-        <div className="grid grid-cols-1 items-center">
+        <div className="grid grid-cols-1 items-center overflow-hidden">
           <div className="text-3xl sm:text-4xl tracking-tight leading-tight mb-8 text-center">
             <h1>
               Premium{' '}
@@ -46,7 +46,7 @@ const MobileHomePage = () => {
           <div className="text-center text-lg font-medium text-gray-800 ">
             <p className="text-gray-600">Don&apos;t have your own image?</p>
             <p className="text-pink-900">No worries!</p>
-            <div className="mx-auto max-w-md">
+            <div className="mx-auto max-w-md ml-6">
               <HeroCards />
             </div>
             <p className="mt-4 underline underline-offset-4 cursor-pointer hover:text-pink-600 transition">
