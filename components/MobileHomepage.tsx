@@ -7,7 +7,7 @@ const MobileHomePage = () => {
   return (
     <div>
       <MaxWidthWrapper className="">
-        <div className="grid grid-cols-1  items-baseline-last">
+        <div className="grid grid-cols-1  items-center">
           <div className="text-3xl sm:text-4xl tracking-tight leading-tight mb-8 text-center">
             <h1>
               Premium{' '}
